@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
     def index
-        render html: "this is an initial test"
+        render html: "テスト環境です。"
     end
 end
