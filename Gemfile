@@ -31,7 +31,7 @@ gem "jbuilder"
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "3.1.18"
 
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -62,6 +62,7 @@ group :development do
   gem 'listen', '3.7.1'
   gem 'spring', '4.1.0'
   gem 'spring-watcher-listen', '2.1.0'
+  gem 'pry', '0.14.2'
 end
 
 group :test do
